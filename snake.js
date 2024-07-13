@@ -116,16 +116,16 @@ function handleKeyPress(event) {
   ) {
     startGame();
   } else {
-    if(event.code == "ArrowUp" && direction != 'down') {
+    if(event.code === "ArrowUp" && direction != 'down') {
       direction = 'up';
     }
-    if(event.code == "ArrowDown" && direction != 'up') {
+    if(event.code === "ArrowDown" && direction != 'up') {
       direction = 'down';
     }
-    if(event.code == "ArrowLeft" && direction != 'right') {
+    if(event.code === "ArrowLeft" && direction != 'right') {
       direction = 'left';
     }
-    if(event.code == "ArrowRight" && direction != 'left') {
+    if(event.code === "ArrowRight" && direction != 'left') {
       direction = 'right';
     }
   }

@@ -119,13 +119,13 @@ function handleKeyPress(event) {
     if(event.code === "ArrowUp" && direction != 'down') {
       direction = 'up';
     }
-    if(event.code === "ArrowDown" && direction != 'up') {
+    else if(event.code === "ArrowDown" && direction != 'up') {
       direction = 'down';
     }
-    if(event.code === "ArrowLeft" && direction != 'right') {
+    else if(event.code === "ArrowLeft" && direction != 'right') {
       direction = 'left';
     }
-    if(event.code === "ArrowRight" && direction != 'left') {
+    else if(event.code === "ArrowRight" && direction != 'left') {
       direction = 'right';
     }
   }
